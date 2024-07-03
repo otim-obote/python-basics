@@ -1,0 +1,74 @@
++*In[1]:*+
+[source, ipython3]
+----
+imp
+----
+
+
++*Out[1]:*+
+----
+
+    ---------------------------------------------------------------------------
+
+    NameError                                 Traceback (most recent call last)
+
+    Cell In[1], line 1
+    ----> 1 imp
+    
+
+    NameError: name 'imp' is not defined
+
+----
+
+
++*In[2]:*+
+[source, ipython3]
+----
+type(3+4j)
+----
+
+
++*Out[2]:*+
+----complex----
+
+
++*In[3]:*+
+[source, ipython3]
+----
+type('William')
+----
+
+
++*Out[3]:*+
+----str----
+
+
++*In[4]:*+
+[source, ipython3]
+----
+type(True)
+----
+
+
++*Out[4]:*+
+----bool----
+
+
++*In[5]:*+
+[source, ipython3]
+----
+print('Hello World')
+----
+
+
++*Out[5]:*+
+----
+Hello World
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
